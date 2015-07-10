@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8" name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;PAPER_WIDTH&quot;:768,&quot;PAPER_HEIGHT&quot;:1024,&quot;PAPER_SCROLL_LEFT&quot;:2044,&quot;PAPER_SCROLL_TOP&quot;:2052,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src&quot;,&quot;THEME&quot;:&quot;vaadin_kaljakalenteri&quot;}">
+ </head> 
+ <body> 
+  <v-vertical-layout spacing="true" margin="true"> 
+   <v-menu-bar plain-text="" :expand=""></v-menu-bar> 
+   <v-horizontal-layout spacing="true" width-full="true"> 
+    <v-grid></v-grid> 
+    <v-grid-layout spacing="true" width="200px" :expand=""> 
+     <row> 
+      <column> 
+       <v-label size-auto="true" plain-text="">
+         Label 
+       </v-label> 
+      </column> 
+     </row> 
+     <row> 
+      <column> 
+       <v-label size-auto="true" plain-text="">
+         Label 
+       </v-label> 
+      </column> 
+      <column> 
+       <v-text-field></v-text-field> 
+      </column> 
+     </row> 
+     <row></row> 
+     <row></row> 
+     <row></row> 
+    </v-grid-layout> 
+   </v-horizontal-layout> 
+  </v-vertical-layout>  
+ </body>
+</html>
